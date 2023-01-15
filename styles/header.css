@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght&family=Roboto&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Noto Sans", sans-serif;
+}
+.nav-main {
+	height: 70px;
+	width: 100%;
+	/* background-color: grey; */
+	padding: 0 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.nav-logo {
+	width: 160px;
+	height: 100%;
+	filter: invert();
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav-logo-img {
+	width: 100%;
+	height: auto;
+}
+.nav-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-product {
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	/* display: flex; */
+}
+.nav-product:hover {
+	color: green;
+}
+.btn-primary {
+	background: white;
+	border-color: green;
+	border: 1px solid;
+	color: green;
+}
+.btn-primary:hover {
+	background: green;
+	border-color: green;
+	border: 1px solid;
+	color: rgb(255, 255, 255);
+}
+#product-hover-element {
+	position: absolute;
+	height: 300px;
+	min-width: 400px;
+	background-color: grey;
+	justify-self: center;
+	left: 300px;
+	top: 70px;
+	z-index: 1000;
+	display: none;
+}
+#businesse-hover-element {
+	position: absolute;
+	height: 300px;
+	min-width: 400px;
+	background-color: grey;
+	justify-self: center;
+	left: 600px;
+	top: 70px;
+	z-index: 1000;
+	display: none;
+}
